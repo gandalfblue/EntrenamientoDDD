@@ -36,6 +36,12 @@ public class Curso extends AggregateEvent<CursoId> {
         return curso;
     }
 
+//    public static Mentoria from(MentoriaId entityId, List<DomainEvent> events){
+//        var mentoria = new Mentoria(entityId);
+//        events.forEach(mentoria::applyEvent);
+//        return mentoria;
+//    }
+
     public void agregarMentoria( Nombre nombre, Fecha fecha){
         var mentoriaId = new MentoriaId();
         appendChange(new MentoriaCreada(mentoriaId, nombre, fecha)).apply();

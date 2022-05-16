@@ -28,7 +28,4 @@ public class AgregarMentoria extends Command {
     public Fecha getFecha() {
         return fecha;
     }
-
-
-
 }
