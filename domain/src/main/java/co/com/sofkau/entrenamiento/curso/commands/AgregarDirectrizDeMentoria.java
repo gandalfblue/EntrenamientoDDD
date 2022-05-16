@@ -24,4 +24,8 @@ public class AgregarDirectrizDeMentoria extends Command {
     public Directiz getDirectiz() {
         return directiz;
     }
+
+    public CursoId getCursoId() {
+        return cursoId;
+    }
 }

@@ -42,6 +42,5 @@ class CrearCursoUseCaseTest {
         Assertions.assertEquals("xxxxx", cursoCreado.aggregateRootId());
         Assertions.assertEquals("DDD", cursoCreado.getNombre().value());
         Assertions.assertEquals("Curso complementario para el training", cursoCreado.getDescripcion().value());
-
     }
 }
